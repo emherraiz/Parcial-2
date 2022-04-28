@@ -221,7 +221,7 @@ def main():
             pokemon2= pokemon
       pokemon1.fight_attack(pokemon2)
       pokemon2.fight_attack(pokemon1)
-      
+
 
     print("------------------------------------------------------------------")
     print("The Game has end...")
