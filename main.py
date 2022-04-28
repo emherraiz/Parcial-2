@@ -34,6 +34,7 @@ This Python method contains the application of the Game.
 
 from pokemon import Pokemon
 from weapon_type import WeaponType
+import pandas as pd
 
 def get_data_from_user(name_file):
     """Function to obtain data from each user.
@@ -165,7 +166,7 @@ def main():
     print("Let's start to set the configuration of each game user. \n")
 
     # Get configuration for Game User 1.
-  
+
     list_of_pokemon1= get_data_from_user("coach_1_pokemons.csv")
 
     # Get configuration for Game User 2.
